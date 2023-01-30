@@ -18,7 +18,7 @@ public class GatewayServiceApplication {
         SpringApplication.run(GatewayServiceApplication.class, args);
     }
 
-    //@Bean
+    @Bean
     RouteLocator routeLocator(RouteLocatorBuilder builder){
         return builder.routes()
                 .route(r->r.path("/customers/**").uri("lb://localhost:8081"))
@@ -26,7 +26,7 @@ public class GatewayServiceApplication {
                 .build();
     }
 
-    @Bean
+    //@Bean
     DiscoveryClientRouteDefinitionLocator dynamicroute(ReactiveDiscoveryClient rdc,
                                                        DiscoveryLocatorProperties dlp){
         return new DiscoveryClientRouteDefinitionLocator(rdc,dlp);
