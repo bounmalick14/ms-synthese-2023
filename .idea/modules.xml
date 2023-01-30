@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/App_ms_synthese.iml" filepath="$PROJECT_DIR$/.idea/App_ms_synthese.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Billing-service/Billing-service.iml" filepath="$PROJECT_DIR$/Billing-service/Billing-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Customer-service/Customer-service.iml" filepath="$PROJECT_DIR$/Customer-service/Customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Discovery-service/Discovery-service.iml" filepath="$PROJECT_DIR$/Discovery-service/Discovery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-service/Gateway-service.iml" filepath="$PROJECT_DIR$/Gateway-service/Gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inventory-service/Inventory-service.iml" filepath="$PROJECT_DIR$/Inventory-service/Inventory-service.iml" />
+    </modules>
+  </component>
+</project>
